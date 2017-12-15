@@ -1,0 +1,58 @@
+.type1
+{
+	margin: 5px;
+	padding: 8px 16px;
+	background-color: #ed1c24;
+	display: inline-block;
+    box-shadow: 0px 5px 10px black,0 10px 10px #ccc;
+    width: 99%;
+    border-radius:5px;   
+}
+
+.topnav {
+	display: inline-block;
+    width: 45%;
+    top:0px;
+    left:0px;
+    right:0px;  
+    padding: 5px;
+    background-color:inherit;
+    overflow:auto;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a { 
+    font-family: ' Arial Black';
+    float: right;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    vertical-align: middle;
+}   
+.topnav {
+    letter-spacing:0px;
+    font-family: Times New Roman;
+    float: right;
+    font-size:20px;
+    font-weight:bold;
+    padding:20px 15px;
+}
+
+.topnav:hover{
+    text-decoration:none;
+    color:#d9e849;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color:yellow;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
